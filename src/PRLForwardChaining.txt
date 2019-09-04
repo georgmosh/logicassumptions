@@ -1,0 +1,10 @@
+4 4
+PROVE Criminal(West)
+American(West)
+Missile(M1)
+Owns(Nono, M1)
+Enemy(Nono, America)
+Missile(x1) AND Owns(Nono, x1) IMPLIES Sells(West, x1, Nono)
+Enemy(x2, America) IMPLIES Hostile(x2)
+Missile(x3) IMPLIES Weapon(x3)
+American(x4) AND Weapon(y1) AND Sells(x4, y1, z1) AND Hostile(z1) IMPLIES Criminal(x4)
